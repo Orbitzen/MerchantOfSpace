@@ -9,7 +9,8 @@ namespace MerchantOfSpace
     {
         static void Main(string[] args)
         {
-            Console.Read();
+            Console.WriteLine(Resource.ApplicationWelcomeMessage);
+            Console.ReadLine();
         }
     }
 }

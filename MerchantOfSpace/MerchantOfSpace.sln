@@ -1,18 +1,62 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchantOfSpace", "MerchantOfSpace\MerchantOfSpace.csproj", "{D25A7313-F2ED-4C8A-88A4-68C639C2319C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchantOfSpace.UI", "MerchantOfSpace.UI\MerchantOfSpace.UI.csproj", "{D25A7313-F2ED-4C8A-88A4-68C639C2319C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchantOfSpace.Tests", "MerchantOfSpace.Tests\MerchantOfSpace.Tests.csproj", "{159219F1-E55B-4937-BEB2-7D57B1D8A3BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{180994DD-3A7E-4044-A6E4-B443F91B0B92}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MerchantOfSpace.vsmdi = MerchantOfSpace.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchantOfSpace.BLL", "MerchantOfSpace.BLL\MerchantOfSpace.BLL.csproj", "{C914663A-AFCE-463F-822E-0DB69B229073}"
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MerchantOfSpace.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D25A7313-F2ED-4C8A-88A4-68C639C2319C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D25A7313-F2ED-4C8A-88A4-68C639C2319C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D25A7313-F2ED-4C8A-88A4-68C639C2319C}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{D25A7313-F2ED-4C8A-88A4-68C639C2319C}.Debug|x86.ActiveCfg = Debug|x86
 		{D25A7313-F2ED-4C8A-88A4-68C639C2319C}.Debug|x86.Build.0 = Debug|x86
+		{D25A7313-F2ED-4C8A-88A4-68C639C2319C}.Release|Any CPU.ActiveCfg = Release|x86
+		{D25A7313-F2ED-4C8A-88A4-68C639C2319C}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D25A7313-F2ED-4C8A-88A4-68C639C2319C}.Release|Mixed Platforms.Build.0 = Release|x86
 		{D25A7313-F2ED-4C8A-88A4-68C639C2319C}.Release|x86.ActiveCfg = Release|x86
 		{D25A7313-F2ED-4C8A-88A4-68C639C2319C}.Release|x86.Build.0 = Release|x86
+		{159219F1-E55B-4937-BEB2-7D57B1D8A3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159219F1-E55B-4937-BEB2-7D57B1D8A3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159219F1-E55B-4937-BEB2-7D57B1D8A3BD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{159219F1-E55B-4937-BEB2-7D57B1D8A3BD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{159219F1-E55B-4937-BEB2-7D57B1D8A3BD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{159219F1-E55B-4937-BEB2-7D57B1D8A3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159219F1-E55B-4937-BEB2-7D57B1D8A3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159219F1-E55B-4937-BEB2-7D57B1D8A3BD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{159219F1-E55B-4937-BEB2-7D57B1D8A3BD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{159219F1-E55B-4937-BEB2-7D57B1D8A3BD}.Release|x86.ActiveCfg = Release|Any CPU
+		{C914663A-AFCE-463F-822E-0DB69B229073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C914663A-AFCE-463F-822E-0DB69B229073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C914663A-AFCE-463F-822E-0DB69B229073}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C914663A-AFCE-463F-822E-0DB69B229073}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C914663A-AFCE-463F-822E-0DB69B229073}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C914663A-AFCE-463F-822E-0DB69B229073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C914663A-AFCE-463F-822E-0DB69B229073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C914663A-AFCE-463F-822E-0DB69B229073}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C914663A-AFCE-463F-822E-0DB69B229073}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C914663A-AFCE-463F-822E-0DB69B229073}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
