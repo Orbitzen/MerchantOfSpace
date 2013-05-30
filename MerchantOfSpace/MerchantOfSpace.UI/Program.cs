@@ -10,6 +10,9 @@ namespace MerchantOfSpace
         static void Main(string[] args)
         {
             Console.WriteLine(Resource.ApplicationWelcomeMessage);
+
+
+
             Console.ReadLine();
         }
     }
